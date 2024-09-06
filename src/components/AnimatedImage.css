@@ -1,0 +1,20 @@
+@keyframes borderColorChange {
+    0% {
+      border-color: #a0f00c;
+    }
+    25% {
+      border-color: #ee4e0f;
+    }
+    50% {
+      border-color: #0000ff;
+    }
+    75% {
+      border-color: #ff00ff;
+    }
+    100% {
+      border-color: #ace217;
+    }
+  }
+  .image-container img {
+    animation: borderColorChange 3s linear infinite;
+  }

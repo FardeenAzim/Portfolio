@@ -1,0 +1,12 @@
+@media (max-width: 1180px) {
+  
+}
+
+@media (max-width: 770px) {
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Ensures that items don't overflow */
+}
