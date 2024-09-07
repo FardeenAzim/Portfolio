@@ -1,7 +1,7 @@
 import React from 'react';
 import { Info } from "../Data";
 import Typewriter from "typewriter-effect";
-import resume from '../assets/resume.pdf';
+import Resume from '../assets/Resume.pdf';
 import img from '../assets/img.avif'
 // import VantaBackground from "./VantaBackground";
 import AnimatedImage from './AnimatedImage';
@@ -39,7 +39,7 @@ const Home = () => {
 
                     
                     <a 
-                      href={resume} download 
+                      href={Resume} download 
                       className="mt-10 flex w-[200px] items-center p-2 bg-green-500 text-white rounded hover:bg-green-600 px-3 mx-4 rounded !border-primaryColor border-2 hover:!shadow-[0_0_10px_1px_#4CAF50]">
                       Download
                       <img src={download} alt="Download Icon" className="ml-2 w-8 h-8 mb-2 " /> 
