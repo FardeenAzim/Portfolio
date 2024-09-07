@@ -10,26 +10,27 @@ const FullProjectModel = ({ opened, close, projectDetails }) => {
       centered
       size="55rem"
       overlayOpacity={0.55}
+      scrollAreaComponent={ScrollArea.Autosize}
       overlayBlur={3}
-      scrollAreaComponent={(props) => (
+{/*       scrollAreaComponent={(props) => (
         <ScrollArea.Autosize
           {...props}
           classNames={{
             root: 'bg-gray-600',
           }}
         />
-      )}
+      )} */}
       classNames={{
-        modal: 'border-l border-r border-gray-600', 
-        header: 'bg-gray-600',                      
-        footer: 'bg-gray-600', 
+        // modal: 'border-l border-r border-gray-600', 
+        // header: 'bg-gray-600',                      
+        // footer: 'bg-gray-600', 
       }}
       closeButtonProps={{
         className: 'text-blue-600', 
       }}
       
     >
-      <div className="relative flex flex-col gap-4 p-4 !bg-gray-600 rounded-lg">
+      <div className="relative flex flex-col gap-4 p-4 rounded-lg">
         <div className="w-full h-[300px] md:h-[400px] rounded-md overflow-hidden">
           <img
             src={projectDetails.image}
@@ -38,7 +39,7 @@ const FullProjectModel = ({ opened, close, projectDetails }) => {
           />
         </div>
 
-        <div className="w-full p-3 rounded-lg !bg-gray-600 text-white">
+        <div className="w-full p-3 rounded-lg text-white">
           <Text size="lg" className="text-center text-2xl font-bold">
             {projectDetails.title}
           </Text>
@@ -68,7 +69,7 @@ const FullProjectModel = ({ opened, close, projectDetails }) => {
           <a href={projectDetails.github} target="_blank" className="md:!w-[48%] sm:[40%] -mt-[20px]">
             <Button
               className="bg-blue-500 text-white text-center rounded-md text-xl"
-              variant="outline"
+{/*               variant="outline" */}
               fullWidth
               mt="xs"
             >
@@ -79,7 +80,7 @@ const FullProjectModel = ({ opened, close, projectDetails }) => {
           <a href={projectDetails.link} target="_blank" className="md:!w-[48%] sm:[40%] -mt-[20px]">
             <Button
               className="bg-blue-500 text-white text-center rounded-md text-xl"
-              variant="outline"
+{/*               variant="outline" */}
               fullWidth
               mt="xs"
             >
