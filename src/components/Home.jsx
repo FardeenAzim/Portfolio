@@ -2,7 +2,7 @@ import React from 'react';
 import { Info } from "../Data";
 import Typewriter from "typewriter-effect";
 import Resume from '../assets/Resume.pdf';
-import img from '../assets/img.avif'
+import img from '../assets/img.avif';
 // import VantaBackground from "./VantaBackground";
 import AnimatedImage from './AnimatedImage';
 import download from '../assets/down.png'
