@@ -7,7 +7,6 @@ function Footer () {
   const socialLinks = [
     { link: "https://github.com/FardeenAzim", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/fardeen-azim", icon: IconBrandLinkedin },
-    { link: "https://leetcode.com/u/Fardeen_Azim/", icon: IconBrandLeetcode }
     // { link: "https://instagram.com/azim.fardeen/", icon: IconBrandInstagram }
 ];
 const socialIcons=socialLinks.map((socialLink => {

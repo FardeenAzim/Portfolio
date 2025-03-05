@@ -8,6 +8,10 @@ import html from '../src/assets/html.png';
 import css from '../src/assets/css.png';
 import javaScript from '../src/assets/javaScript.png';
 import react from '../src/assets/react.png';
+import cop from '../src/assets/cop.png';
+import django from '../src/assets/django.png';
+import tail from '../src/assets/tail.png';
+import vite from '../src/assets/vite.png';
 import image1 from '../src/assets/image1.png';
 import image2 from '../src/assets/image2.png';
 
@@ -15,8 +19,7 @@ import image2 from '../src/assets/image2.png';
 const Info = {
     name: "Fardeen Azim",
     stack: ["Developer", "Programmer"],
-    bio: "A dedicated and detail-oriented Bachelor of Computer Applications (BCA) student with a strong foundation in software development, including proficiency in programming languages like Java, C++, and Python. Experienced in building web applications using React, html, css and javaScript. Passionate about problem-solving and continuously learning new technologies. Seeking a software engineering role to leverage my skills in developing innovative and efficient software solutions."
-}
+    bio: "Enthusiastic Software Engineering student with a strong foundation in full-stack development. Proficient in React, Tailwind CSS, Python, and Java, with expertise in developing scalable, responsive web applications and optimizing database management." }
 
 
 const ProjectInfo = [
@@ -38,6 +41,15 @@ const ProjectInfo = [
         link: "https://fardeenazim.github.io/Text-Analyzer/",
         github: "https://github.com/FardeenAzim/Text-Analyzer"
     },
+    {  
+      id: "3",
+      title: "E-Commerce Website",
+      description: "A Django-based e-commerce website is a full-fledged online shopping platform that enables users to browse products, add items to their cart, manage addresses, and complete purchases securely. Built using Django as the backend framework, it ensures scalability, security, and efficient database management. Users can browse and search for products with detailed descriptions and images.  Secure payment processing using Razorpay or other gateways.",
+      image: image2,
+      technologies: ["Django"],
+      link: "https://fardeenazim.github.io/ecommerce/",
+      github: "https://github.com/FardeenAzim/ecommerce"
+  },
    
 ]
 
@@ -90,13 +102,31 @@ const cardItems = [
     logo: react,
     name: "React.JS",
   },
+  {
+    id: 9,
+    logo: cop,
+    name: "C #",
+  },
+  {
+    id: 10,
+    logo: django,
+    name: "Django",
+  },
+  {
+    id: 11,
+    logo: vite,
+    name: "Vite",
+  },
+  {
+    id: 12,
+    logo: tail,
+    name: "Tailwind CSS",
+  },
 ];
 
 const socialLink = [
     { link: "https://github.com/FardeenAzim", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/fardeen-azim", icon: IconBrandLinkedin },
-    { link: "https://leetcode.com/u/Fardeen_Azim/", icon: IconBrandLeetcode },
-    { link: "https://instagram.com/u/Fardeen_Azim/", icon: IconBrandInstagram }
 ];
 
 

@@ -6,7 +6,7 @@ const Social = () => {
     const socialLinks = [
         { link: "https://github.com/FardeenAzim", icon: IconBrandGithub },
         { link: "https://www.linkedin.com/in/fardeen-azim", icon: IconBrandLinkedin },
-        { link: "https://leetcode.com/u/Fardeen_Azim/", icon: IconBrandLeetcode }
+        // { link: "https://leetcode.com/u/Fardeen_Azim/", icon: IconBrandLeetcode }
         // { link: "https://instagram.com/azim.fardeen/", icon: IconBrandInstagram }
     ];
     const socialIcons=socialLinks.map((socialLink => {
@@ -16,7 +16,7 @@ const Social = () => {
         </a>
     }))
   return (
-    <div className="flex item-center text-black gap-8 fixed bottom-[180px] -left-[180px] rotate-90 z-40 sm-mx:hidden">
+    <div className="flex item-center text-black gap-8 fixed bottom-[180px] -left-[162px] rotate-90 z-40 sm-mx:hidden">
       {socialIcons}
     <hr className="border-[5px] w-60 rounded-full font-bold bg-black-400 border-black-400 mt-2.5"/>
   </div>
